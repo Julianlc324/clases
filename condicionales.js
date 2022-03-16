@@ -41,7 +41,7 @@ if(a == true && c == true){
 }*/
 
 //switch
-var dias = "sabado"
+/*var dias = "sabado"
 
 switch(dias){
     case "lunes":
@@ -66,7 +66,7 @@ switch(dias){
 
     default:
         console.log("fin de semana")
-}
+}*/
 
 
 
