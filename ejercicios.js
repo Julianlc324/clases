@@ -87,7 +87,7 @@ if(isNaN(numero1) || isNaN(numero2)){
     }
 }*/
 
-// Ejerciciio 5
+//Ejerciciio 5
 /*var numero
 numero = Number(prompt("ingrese un numero: "))
 if(isNaN(numero)){
@@ -105,8 +105,8 @@ if(isNaN(numero)){
     }
 }*/
 
-// Ejercicio 6
-var numero 
+//Ejercicio 6
+/*var numero 
 var resultado
 numero = Number(prompt("Ingrese un numero: "))
 while(numero < 0 || isNaN(numero)){
@@ -119,7 +119,38 @@ for (let i = 0; i <= numero; i++) {
     }else{
         console.log("es un numero impar: "+i)
     }
+}*/
+
+//Ejercicio 7
+/*var numero
+numero = Number(prompt("Ingrese un numero: "))
+if(isNaN(numero)){
+    console.log("numero invalido")
+}else{
+    for (let i = 0; i <= 10; i++) {
+        let multiplicar = i*numero
+        console.log("tabla de multiplicar del "+numero+" es: "+multiplicar)
+    }
+}*/
+
+//Ejercicio 8
+/*var numero1
+var numero2
+numero1 = Number(prompt("ingrese numero1: "))
+numero2 = Number(prompt("Ingrese numero2: "))
+while(isNaN(numero1) || isNaN(numero2) || numero1 < 0 || numero2 < 0){
+    numero1 = Number(prompt("ingrese un numero1 valido: "))
+    numero2 = Number(prompt("Ingrese un numero2 valido: "))       
 }
+var suma = numero1 + numero2
+var resta = numero1 - numero2
+var multiplicacion = numero1 * numero2
+var division = numero1 / numero2
+console.log("resultado de la suma es: "+suma)
+console.log("resultado de la resta es: "+resta)
+console.log("resultado de la multiplicacion es: "+multiplicacion)
+console.log("resultado de la division es: "+division)*/
+
 
 
 
