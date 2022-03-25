@@ -69,4 +69,40 @@ calculadora(2,4)*/
 //var frutas = ["naranja", "manzana"]
 ///listadoFrutas(...frutas, "sandia", "pera", "melon" )
 
+//Funciones anonimas
+// Es una funcion q no tiene nombre
+
+//var pelicula = function(nombre){
+//    return "la pelicula es"+nombre
+//}
+
+/*function sumame(numero1, numero2, sumita, sumados){
+    var suma = numero1 + numero2
+    sumita(suma)
+    sumados(suma)
+}
+
+sumame(2, 2, function(dato){
+    console.log("la suma es: "+ dato)
+},
+function(dato){
+    console.log("la suma por dos es: "+ (dato*2))
+})*/
+
+//Funcion flecha
+function sumame(numero1, numero2, sumita, sumados){
+    var suma = numero1 + numero2
+    sumita(suma)
+    sumados(suma)
+}
+
+sumame(2, 2, dato => {
+    console.log("la suma es: "+ dato)
+},
+dato => {
+    console.log("la suma por dos es: "+ (dato*2))
+})
+
+
+
 
