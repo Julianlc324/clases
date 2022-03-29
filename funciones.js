@@ -90,7 +90,7 @@ function(dato){
 })*/
 
 //Funcion flecha
-function sumame(numero1, numero2, sumita, sumados){
+/*function sumame(numero1, numero2, sumita, sumados){
     var suma = numero1 + numero2
     sumita(suma)
     sumados(suma)
@@ -101,7 +101,76 @@ sumame(2, 2, dato => {
 },
 dato => {
     console.log("la suma por dos es: "+ (dato*2))
-})
+})*/
+
+//Ambito
+/*var texto = "hola mundo variable global"
+var numero = 324
+function holamundo(texto){
+    var prueba = "pruebita"
+    console.log(texto)
+    console.log(typeof(numero).toString())
+    console.log(prueba)
+}
+
+holamundo(texto)*/
+
+//transformacion de textos
+//var numero = 123
+//var texto1 = "hola amigo"
+//var texto2 = "CURSO"
+
+//var dato = numero.toString()
+//console.log(typeof(dato))
+
+//var dato = texto1.toUpperCase()
+//console.log(dato)
+
+//var dato = texto2.toLowerCase()
+//console.log(dato)
+
+//longitud
+//var nombre = "julian"
+//var apellido = ["hola", "juli", "bonito"]
+//console.log(apellido.length)
+
+//Concatenar
+//var nombre = "julian "
+//var apellido = "londoño"
+
+//var datos = nombre + apellido
+//console.log(datos)
+
+//busquedas
+var palabra = " hola mundo bonito mundo "
+//var busqueda = palabra.indexOf("mundo")
+//var busqueda = palabra.lastIndexOf("mundo")
+//var busqueda = palabra.search("mundo")
+//var busqueda = palabra.match("mundo")
+//var busqueda = palabra.substr(2, 10)
+//var busqueda = palabra.charAt(2)
+//var busqueda = palabra.startsWith("hola")
+//var busqueda = palabra.endsWith("mundo")
+//var busqueda = palabra.includes("mundo")
+
+//funciones
+//var busqueda = palabra.replace("mundo", "universo")
+//var busqueda = palabra.slice(4, 6)
+//var busqueda = palabra.split(" ")
+//var busqueda = palabra.trim() 
+//console.log(busqueda)
+
+//Plantillas 
+/*var nombre = prompt("ingrese el nombre: ")
+var apellido = prompt("ingrese el apellido: ")
+//var texto = "Mi nombre es "+nombre+" y mi apellido es: "+apellido
+var texto = `<h1> Mi nombre es: ${nombre} </h1>
+<h1> Mi apellido es: ${apellido} </h1> ` 
+document.write(texto)*/
+
+
+
+
 
 
 
