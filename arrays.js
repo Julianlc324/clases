@@ -30,12 +30,12 @@
 //console.log(cine)
 //console.log(cine[0][1])
 
-var peliculas = new Array("la verdad duele", "la vida es bella", "gran torino")
+/*var peliculas = new Array("la verdad duele", "la vida es bella", "gran torino")
 peliculas.push("batman")
 
 peliculas.forEach(elemento => {
     console.log(elemento)
-});
+});*/
 
 //var elemento = prompt("ingrese tu pelicula: ")
 //peliculas.push(elemento)
