@@ -1,6 +1,6 @@
 'use strict'
 
-var numero1 = Number(prompt("Ingrese el numero 1: "))
+/*var numero1 = Number(prompt("Ingrese el numero 1: "))
 var numero2 = Number(prompt("Ingrese el numero 2: "))
 var numero3 = Number(prompt("Ingrese el numero 3: "))
 var numero4 = Number(prompt("Ingrese el numero 4: "))
@@ -26,5 +26,5 @@ function buscarNumero(numero){
     }
 }
 
-buscarNumero(Number(prompt("Ingrse el numero a buscar: ")))
+buscarNumero(Number(prompt("Ingrse el numero a buscar: ")))*/
 
